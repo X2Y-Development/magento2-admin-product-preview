@@ -7,9 +7,9 @@ Magento 2 Admin Product Preview module add a link in backend catalog product gri
 1. Add the repository to the repositories section of your composer.json file:
 ```
 "repositories": [
-    {
-     "type": "vcs",
-     "url": "git@github.com:webjump/magento2-admin-product-preview.git"
+    "x2y-development": {
+        "type": "git",
+        "url": "https://github.com/x2y-development/magento2-admin-product-preview.git"
     }
 ],
 ```
